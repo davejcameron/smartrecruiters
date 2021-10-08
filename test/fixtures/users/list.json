@@ -1,0 +1,29 @@
+{
+  "limit": 0,
+  "nextPageId": "string",
+  "content": [
+    {
+      "email": "user@example.com",
+      "firstName": "string",
+      "lastName": "string",
+      "systemRole": {
+        "id": "string",
+        "name": "string"
+      },
+      "externalData": "string",
+      "ssoIdentifier": "string",
+      "ssoLoginMode": "SSO",
+      "language": {
+        "code": "bg"
+      },
+      "id": "string",
+      "active": true,
+      "updatedOn": "2021-10-08T01:41:48.983Z",
+      "accessGroups": [
+        {
+          "id": "string"
+        }
+      ]
+    }
+  ]
+}
