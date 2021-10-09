@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'faraday'
 require 'faraday_middleware'
 
@@ -6,7 +8,7 @@ module SmartRecruiters
     SMART_RECRUITERS_BASE_PATHS = {
       'production' => 'https://api.smartrecruiters.com',
       'sandbox' => 'https://api.sandbox.smartrecruiters.com'
-    }
+    }.freeze
 
     attr_reader :api_key, :adapter
 

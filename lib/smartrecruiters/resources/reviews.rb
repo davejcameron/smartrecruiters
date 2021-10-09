@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module SmartRecruiters
   class ReviewsResource < Resource
     def list(candidate_id:, job_id:)

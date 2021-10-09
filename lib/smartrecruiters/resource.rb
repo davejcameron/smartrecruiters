@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module SmartRecruiters
   class Resource
     attr_reader :client

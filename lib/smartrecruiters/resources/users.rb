@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module SmartRecruiters
   class UsersResource < Resource
     USER_API = 'user-api/v201804'

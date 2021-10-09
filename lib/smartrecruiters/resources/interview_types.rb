@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module SmartRecruiters
   class InterviewTypesResource < Resource
     def list
@@ -5,7 +7,7 @@ module SmartRecruiters
     end
 
     def create(interview_types:)
-      patch_request('interview-types', body: interview_type)
+      patch_request('interview-types', body: interview_types)
       true
     end
 

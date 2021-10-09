@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module SmartRecruiters
   class CandidatesResource < Resource
     def list(**params)
