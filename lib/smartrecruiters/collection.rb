@@ -5,7 +5,7 @@ module SmartRecruiters
     def self.from_response(response, type:)
       body = response.body
       new(
-        content: body["content"].map{ |attrs| type.new(attrs) },
+        content: body['content'].map { |attrs| type.new(attrs) },
         limit: body.dig('limit'),
         offset: body.dig('offset'),
         next_page_id: body.dig('nextPageId'),

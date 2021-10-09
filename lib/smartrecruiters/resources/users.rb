@@ -1,9 +1,9 @@
 module SmartRecruiters
   class UsersResource < Resource
-    USER_API = "user-api/v201804"
+    USER_API = 'user-api/v201804'
 
     def list(q: nil, limit: nil, page_id: nil, updated_after: nil)
-      params = {q: q, limit: limit, pageId: page_id, updatedAfter: updated_after}.compact
+      params = { q: q, limit: limit, pageId: page_id, updatedAfter: updated_after }.compact
       Collection.from_response get_request("#{USER_API}/users", params: params), type: User
     end
 

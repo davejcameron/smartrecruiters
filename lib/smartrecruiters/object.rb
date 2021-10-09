@@ -1,4 +1,4 @@
-require "ostruct"
+require 'ostruct'
 
 module SmartRecruiters
   class Object
@@ -11,7 +11,7 @@ module SmartRecruiters
       attribute.is_a?(Hash) ? Object.new(attribute) : attribute
     end
 
-    def respond_to_missing?(method, include_private = false)
+    def respond_to_missing?(_method, _include_private = false)
       true
     end
   end

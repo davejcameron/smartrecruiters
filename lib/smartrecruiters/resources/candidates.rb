@@ -1,7 +1,7 @@
 module SmartRecruiters
   class CandidatesResource < Resource
     def list(**params)
-      response = get_request("candidates", params: params)
+      response = get_request('candidates', params: params)
       Collection.from_response(response, type: Candidate)
     end
 
@@ -10,7 +10,7 @@ module SmartRecruiters
     end
 
     def create(**attributes)
-      Candidate.new post_request("candidates", body: attributes).body
+      Candidate.new post_request('candidates', body: attributes).body
     end
 
     def update(candidate_id:, **attributes)
