@@ -47,7 +47,7 @@ client.candidates.list
 client.candidates.create({})
 client.candidates.retrieve(candidate_id: "id")
 client.candidates.update(candidate_id: "id", {})
-client.candidates.delete(candidate_di: "id")
+client.candidates.delete(candidate_id: "id")
 client.candidates.retrieve_consent(candidate_id: "id")
 client.candidates.retrieve_consents(candidate_id: "id")
 client.candidates.retrieve_application(candidate_id: "id", job_id: "id")

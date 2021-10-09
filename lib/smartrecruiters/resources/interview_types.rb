@@ -1,11 +1,13 @@
+# frozen_string_literal: true
+
 module SmartRecruiters
   class InterviewTypesResource < Resource
     def list
-      Object.new get_request("interview-types").body
+      Object.new get_request('interview-types').body
     end
 
     def create(interview_types:)
-      patch_request("interview-types", body: interview_type)
+      patch_request('interview-types', body: interview_types)
       true
     end
 

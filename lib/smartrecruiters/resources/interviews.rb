@@ -1,7 +1,8 @@
+# frozen_string_literal: true
+
 module SmartRecruiters
   class InterviewsResource < Resource
-
-    INTERVIEWS_API = "interviews-api/v201904"
+    INTERVIEWS_API = 'interviews-api/v201904'
 
     def create(**attributes)
       Interview.new post_request("#{INTERVIEWS_API}/interviews", body: attributes).body

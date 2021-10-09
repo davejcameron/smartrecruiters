@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 module SmartRecruiters
   class JobsResource < Resource
     def list(**params)
-      response = get_request("jobs", params: params)
+      response = get_request('jobs', params: params)
       Collection.from_response(response, type: Job)
     end
 

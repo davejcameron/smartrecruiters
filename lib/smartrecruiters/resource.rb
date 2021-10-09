@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module SmartRecruiters
   class Resource
     attr_reader :client
@@ -27,21 +29,21 @@ module SmartRecruiters
     def delete_request(url, params: {}, headers: {})
       handle_response client.connection.delete(url, params, headers)
     end
-    
+
     def handle_response(response)
       case response.status
       when 400
-        raise Error, "Bad request."
+        raise Error, 'Bad request.'
       when 401
-        raise Error, "Unauthorized"
+        raise Error, 'Unauthorized'
       when 403
-        raise Error, "Forbidden"
+        raise Error, 'Forbidden'
       when 404
-        raise Error, "Not Found"
+        raise Error, 'Not Found'
       when 429
-        raise Error, "Too many requests"
+        raise Error, 'Too many requests'
       when 500
-        raise Error, "Internal Server Error"
+        raise Error, 'Internal Server Error'
       end
 
       response
