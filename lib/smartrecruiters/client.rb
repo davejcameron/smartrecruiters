@@ -5,7 +5,9 @@ require 'faraday_middleware'
 
 module SmartRecruiters
   class Client
-    MAX_TIMEOUT = 128
+    SMART_RECRUITERS_TIMEOUT = 128
+    SMART_RECRUITERS_RETRIES = 3
+
     SMART_RECRUITERS_BASE_PATHS = {
       'production' => 'https://api.smartrecruiters.com',
       'sandbox' => 'https://api.sandbox.smartrecruiters.com'
@@ -13,13 +15,16 @@ module SmartRecruiters
 
     attr_reader :api_key, :adapter
 
-    def initialize(api_key:, adapter: Faraday.default_adapter, timeout: MAX_TIMEOUT,
-                   stubs: nil, environment: 'production')
+    def initialize(
+      api_key:,
+      adapter: Faraday.default_adapter,
+      stubs: nil,
+      environment: 'production'
+    )
       @api_key = api_key
-      @adapter = adapter
-      @timeout = timeout
       @environment = environment
 
+      @adapter = adapter
       @stubs = stubs
     end
 
@@ -60,12 +65,22 @@ module SmartRecruiters
         conn.url_prefix = SMART_RECRUITERS_BASE_PATHS[@environment]
         conn.headers['X-SmartToken'] = api_key
         conn.request :json
+        conn.request :retry, retry_options
 
         conn.response :json, content_type: 'application/json'
 
-        conn.options[:timeout] = @timeout
+        conn.options.timeout = SMART_RECRUITERS_TIMEOUT
         conn.adapter adapter, @stubs
       end
+    end
+
+    private
+
+    def retry_options
+      {
+        max: SMART_RECRUITERS_RETRIES,
+        retry_statuses: [429]
+      }
     end
   end
 end
