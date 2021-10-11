@@ -5,6 +5,7 @@ require 'faraday_middleware'
 
 module SmartRecruiters
   class Client
+    MAX_TIMEOUT = 128
     SMART_RECRUITERS_BASE_PATHS = {
       'production' => 'https://api.smartrecruiters.com',
       'sandbox' => 'https://api.sandbox.smartrecruiters.com'
@@ -12,9 +13,11 @@ module SmartRecruiters
 
     attr_reader :api_key, :adapter
 
-    def initialize(api_key:, adapter: Faraday.default_adapter, stubs: nil, environment: 'production')
+    def initialize(api_key:, adapter: Faraday.default_adapter, timeout: MAX_TIMEOUT,
+                   stubs: nil, environment: 'production')
       @api_key = api_key
       @adapter = adapter
+      @timeout = timeout
       @environment = environment
 
       @stubs = stubs
@@ -60,6 +63,7 @@ module SmartRecruiters
 
         conn.response :json, content_type: 'application/json'
 
+        conn.options[:timeout] = @timeout
         conn.adapter adapter, @stubs
       end
     end
