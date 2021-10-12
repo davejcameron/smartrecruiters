@@ -93,6 +93,10 @@ client.offers.retrieve_offers(candidate_id: "id", job_id: "id")
 ```ruby
 client.reports.list
 client.reports.retrieve(report_id: "id")
+client.reports.retrieve_files(report_id: "id")
+client.reports.generate_report(report_id: "id")
+client.reports.retrieve_recent_file(report_id: "id")
+client.reports.retrieve_recent_file_data(report_id: "id")
 ```
 
 ### Reviews
