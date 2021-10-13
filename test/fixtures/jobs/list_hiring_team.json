@@ -1,0 +1,14 @@
+{
+  "totalFound": 0,
+  "content": [
+    {
+      "id": "174e1674-0793-4632-8b8c-917447f35b31",
+      "actions": {
+        "details": {
+          "url": "string",
+          "method": "GET"
+        }
+      }
+    }
+  ]
+}

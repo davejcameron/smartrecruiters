@@ -1,0 +1,10 @@
+{
+  "id": "0837e9b7-c037-4708-8437-8f714f5c8a05",
+  "candidateId": "string",
+  "jobId": "string",
+  "reviewerId": "string",
+  "overallRating": 0,
+  "comment": "Great review",
+  "createdOn": "2021-10-13T18:36:36.403Z",
+  "updatedOn": "2021-10-13T18:36:36.403Z"
+}
