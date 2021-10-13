@@ -38,8 +38,8 @@ client = SmartRecruiters::Client.new(api_key: ENV["SMARTRECRUITERS_API_KEY"], en
 
 ```ruby
 client.access_groups.list
-client.access_groups.assign_users(group_id: "id", user_ids: ['user_id'])
-client.access_groups.remove_user(group_id: "id", user_id: "user_id")
+client.access_groups.assign_users(group_id: "id", user_ids: ["user_id"])
+client.access_groups.remove_user(group_id: "id", user_id: "id")
 ```
 
 ### Candidates
