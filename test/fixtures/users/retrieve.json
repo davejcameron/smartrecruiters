@@ -1,0 +1,35 @@
+{
+  "email": "retrieve@example.com",
+  "firstName": "string",
+  "lastName": "string",
+  "systemRole": {
+    "id": "string",
+    "name": "string"
+  },
+  "externalData": "string",
+  "ssoIdentifier": "string",
+  "ssoLoginMode": "SSO",
+  "language": {
+    "code": "bg"
+  },
+  "id": "e8c0deb2-5fff-477d-98ab-80d0dd92dbc9",
+  "active": true,
+  "updatedOn": "2021-10-13T03:12:04.463Z",
+  "location": {
+    "country": "string",
+    "countryCode": "string",
+    "regionCode": "string",
+    "region": "string",
+    "city": "string",
+    "address": "string",
+    "postalCode": "string",
+    "longitude": "string",
+    "latitude": "string"
+  },
+  "accessGroups": [
+    {
+      "id": "string",
+      "name": "string"
+    }
+  ]
+}

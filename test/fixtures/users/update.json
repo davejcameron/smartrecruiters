@@ -1,0 +1,35 @@
+{
+  "email": "update@example.com",
+  "firstName": "string",
+  "lastName": "string",
+  "systemRole": {
+    "id": "string",
+    "name": "string"
+  },
+  "externalData": "string",
+  "ssoIdentifier": "string",
+  "ssoLoginMode": "SSO",
+  "language": {
+    "code": "bg"
+  },
+  "id": "string",
+  "active": true,
+  "updatedOn": "2021-10-13T17:21:53.020Z",
+  "location": {
+    "country": "string",
+    "countryCode": "string",
+    "regionCode": "string",
+    "region": "string",
+    "city": "string",
+    "address": "string",
+    "postalCode": "string",
+    "longitude": "string",
+    "latitude": "string"
+  },
+  "accessGroups": [
+    {
+      "id": "string",
+      "name": "string"
+    }
+  ]
+}
