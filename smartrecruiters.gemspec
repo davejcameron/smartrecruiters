@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
     spec.metadata['source_code_uri'] = 'https://github.com/davejcameron/smartrecruiters'
   else
     raise 'RubyGems 2.0 or newer is required to protect against ' \
-      'public gem pushes.'
+          'public gem pushes.'
   end
 
   # Specify which files should be added to the gem when it is released.
