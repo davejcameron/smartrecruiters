@@ -127,6 +127,19 @@ client.users.activation_email(user_id: "id")
 client.users.deactivate(user_id: "id")
 ```
 
+### Webhooks
+
+```ruby
+client.webhooks.list
+client.webhooks.create({})
+client.webhooks.retrieve(webhook_id: "id")
+client.webhooks.delete(webhook_id: "id")
+client.webhooks.activate(webhook_id: "id")
+client.webhooks.callbacks_log(webhook_id: "id")
+client.webhooks.generate_secret(webhook_id: "id")
+client.webhooks.retrieve_secret(webhook_id: "id")
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.

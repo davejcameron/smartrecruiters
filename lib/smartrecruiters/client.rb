@@ -61,6 +61,10 @@ module SmartRecruiters
       UsersResource.new(self)
     end
 
+    def webhooks
+      WebhooksResource.new(self)
+    end
+
     def connection
       @connection ||= Faraday.new do |conn|
         conn.url_prefix = SMART_RECRUITERS_BASE_PATHS[@environment]
