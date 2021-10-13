@@ -86,7 +86,7 @@ client.jobs.list_hiring_team(job_id: "id")
 
 ```ruby
 client.offers.list
-client.offers.retrieve_offer(offer_id: "id", candidate_id: "id", job_id: "id")
+client.offers.retrieve(offer_id: "id", candidate_id: "id", job_id: "id")
 client.offers.retrieve_offers(candidate_id: "id", job_id: "id")
 ```
 

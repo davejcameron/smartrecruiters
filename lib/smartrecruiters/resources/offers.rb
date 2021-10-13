@@ -12,8 +12,8 @@ module SmartRecruiters
       Collection.from_response(response, type: Offer)
     end
 
-    def retrieve_offer(offer_id:, candidate_id:, job_id:)
-      Offer.new get_request("candidates/#{candidate_id}/jobs/#{job_id}/offers/#{offer_id}")
+    def retrieve(offer_id:, candidate_id:, job_id:)
+      Offer.new get_request("candidates/#{candidate_id}/jobs/#{job_id}/offers/#{offer_id}").body
     end
   end
 end

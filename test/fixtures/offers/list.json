@@ -1,0 +1,32 @@
+{
+  "limit": 0,
+  "offset": 0,
+  "totalFound": 0,
+  "content": [
+    {
+      "id": "string",
+      "status": "CREATED",
+      "createdOn": "2021-10-13T13:35:36.232Z",
+      "updatedOn": "2021-10-13T13:35:36.232Z",
+      "properties": {
+        "additionalProp1": "string",
+        "additionalProp2": "string",
+        "additionalProp3": "string"
+      },
+      "actions": {
+        "candidate": {
+          "url": "string",
+          "method": "GET"
+        },
+        "job": {
+          "url": "string",
+          "method": "GET"
+        },
+        "details": {
+          "url": "string",
+          "method": "GET"
+        }
+      }
+    }
+  ]
+}
