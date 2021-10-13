@@ -37,6 +37,10 @@ module SmartRecruiters
       CandidatesResource.new(self)
     end
 
+    def interview_types
+      InterviewTypesResource.new(self)
+    end
+
     def interviews
       InterviewsResource.new(self)
     end
