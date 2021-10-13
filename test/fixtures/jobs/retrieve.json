@@ -1,0 +1,122 @@
+{
+  "id": "3588f6b0-ae55-4c10-aaa5-2903ee3a7fe6",
+  "title": "Retrieve job",
+  "refNumber": "string",
+  "createdOn": "2021-10-13T18:09:48.173Z",
+  "updatedOn": "2021-10-13T18:09:48.173Z",
+  "lastActivityOn": "2021-10-13T18:09:48.173Z",
+  "department": {
+    "id": "string",
+    "label": "string",
+    "description": "string"
+  },
+  "location": {
+    "country": "string",
+    "countryCode": "string",
+    "regionCode": "string",
+    "region": "string",
+    "city": "string",
+    "address": "string",
+    "postalCode": "string",
+    "longitude": "string",
+    "latitude": "string",
+    "manual": true,
+    "remote": true
+  },
+  "status": "CREATED",
+  "postingStatus": "PUBLIC",
+  "targetHiringDate": "2021-10-13T18:09:48.173Z",
+  "industry": {
+    "id": "string",
+    "label": "string"
+  },
+  "function": {
+    "id": "string",
+    "label": "string"
+  },
+  "typeOfEmployment": {
+    "id": "string",
+    "label": "string"
+  },
+  "experienceLevel": {
+    "id": "string",
+    "label": "string"
+  },
+  "eeoCategory": {
+    "id": "string",
+    "label": "string"
+  },
+  "template": true,
+  "creator": {
+    "id": "string",
+    "firstName": "string",
+    "lastName": "string"
+  },
+  "compensation": {
+    "min": 0,
+    "max": 0,
+    "currency": "string"
+  },
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "string",
+        "text": "string"
+      },
+      "jobDescription": {
+        "title": "string",
+        "text": "string"
+      },
+      "qualifications": {
+        "title": "string",
+        "text": "string"
+      },
+      "additionalInformation": {
+        "title": "string",
+        "text": "string"
+      },
+      "videos": {
+        "urls": [
+          "string"
+        ]
+      }
+    },
+    "language": {
+      "code": "string",
+      "label": "string",
+      "labelNative": "string"
+    }
+  },
+  "properties": [
+    {
+      "id": "string",
+      "label": "string",
+      "value": {
+        "id": "string",
+        "label": "string"
+      }
+    }
+  ],
+  "actions": {
+    "hiringTeam": {
+      "url": "string",
+      "method": "GET"
+    },
+    "publications": {
+      "url": "string",
+      "method": "GET"
+    },
+    "positions": {
+      "url": "string",
+      "method": "GET"
+    },
+    "applyOnWeb": {
+      "url": "string",
+      "method": "GET"
+    },
+    "details": {
+      "url": "string",
+      "method": "GET"
+    }
+  }
+}
