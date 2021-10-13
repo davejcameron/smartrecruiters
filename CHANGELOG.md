@@ -1,5 +1,16 @@
 # Changelog
 
+### [0.2.1](https://www.github.com/davejcameron/smartrecruiters/compare/v0.2.0...v0.2.1) (2021-10-13)
+
+
+### Bug Fixes
+
+* interview types and tests ([4cf4a84](https://www.github.com/davejcameron/smartrecruiters/commit/4cf4a848c2640d1a109938d3b720351a5dce0e2f))
+* interviews api and add tests ([#14](https://www.github.com/davejcameron/smartrecruiters/issues/14)) ([f710a42](https://www.github.com/davejcameron/smartrecruiters/commit/f710a4289d692977b78bf2c21b1e07c829461739))
+* Offers routes and add tests ([d6f32c8](https://www.github.com/davejcameron/smartrecruiters/commit/d6f32c8f2e865d5d129f72723c61571ba02d37cc))
+* Reviews and add tests ([#13](https://www.github.com/davejcameron/smartrecruiters/issues/13)) ([70a6305](https://www.github.com/davejcameron/smartrecruiters/commit/70a63058ad41891b482359a7c7ba4b2bf587e1a0))
+* Users api routes and add tests ([#12](https://www.github.com/davejcameron/smartrecruiters/issues/12)) ([4bd0b8a](https://www.github.com/davejcameron/smartrecruiters/commit/4bd0b8a627af542feade4f694f00eebd43ac08aa))
+
 ## [0.2.0](https://www.github.com/davejcameron/smartrecruiters/compare/v0.1.0...v0.2.0) (2021-10-13)
 
 
