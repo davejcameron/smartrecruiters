@@ -1,0 +1,11 @@
+[
+  {
+    "status": "successful",
+    "timestamp": "2021-10-12T21:20:02.054Z",
+    "requestDetails": {
+      "url": "string",
+      "body": "string",
+      "headers": {}
+    }
+  }
+]

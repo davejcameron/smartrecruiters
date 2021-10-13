@@ -1,0 +1,28 @@
+[
+  {
+    "id": "643ba46a-a2ef-4e7f-aeab-f51b90eed368",
+    "callbackUrl": "https://example.com/api/candidates/stage",
+    "events": [
+      {
+        "name": "offer.updated",
+        "version": "v1"
+      },
+      {
+        "name": "application.status.updated",
+        "version": "v1"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": "144d9e4e-2787-47e2-95c2-d2c434ef32f4",
+    "callbackUrl": "https://example.com/smart_recruiter_webhook",
+    "events": [
+      {
+        "name": "application.status.updated",
+        "version": "v1"
+      }
+    ],
+    "status": "inactive"
+  }
+]

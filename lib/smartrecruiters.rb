@@ -11,15 +11,16 @@ module SmartRecruiters
 
   autoload :AccessGroup, 'smartrecruiters/objects/access_group'
   autoload :Attachment, 'smartrecruiters/objects/attachment'
+  autoload :CallbacksLog, 'smartrecruiters/objects/callbacks_log'
   autoload :Candidate, 'smartrecruiters/objects/candidate'
   autoload :Interview, 'smartrecruiters/objects/interview'
-
   autoload :Job, 'smartrecruiters/objects/job'
   autoload :Offer, 'smartrecruiters/objects/offer'
   autoload :User, 'smartrecruiters/objects/user'
   autoload :Report, 'smartrecruiters/objects/report'
   autoload :Review, 'smartrecruiters/objects/review'
   autoload :SystemRole, 'smartrecruiters/objects/system_role'
+  autoload :Webhook, 'smartrecruiters/objects/webhook'
 
   autoload :AccessGroupsResource, 'smartrecruiters/resources/access_groups'
   autoload :CandidatesResource, 'smartrecruiters/resources/candidates'
@@ -31,4 +32,5 @@ module SmartRecruiters
   autoload :ReportsResource, 'smartrecruiters/resources/reports'
   autoload :ReviewsResource, 'smartrecruiters/resources/reviews'
   autoload :SystemRolesResource, 'smartrecruiters/resources/system_roles'
+  autoload :WebhooksResource, 'smartrecruiters/resources/webhooks'
 end
