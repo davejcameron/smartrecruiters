@@ -16,23 +16,20 @@ module SmartRecruiters
       User.new get_request("#{USER_API}/users/#{user_id}").body
     end
 
-    def update(user_id:, **attributes)
-      User.new patch_request("#{USER_API}/users/#{user_id}", body: attributes).body
+    def update(user_id:, changes:)
+      User.new patch_request("#{USER_API}/users/#{user_id}", body: changes).body
     end
 
-    def activate(user_id:)
-      put_request("#{USER_API}/users/#{user_id}/activation")
-      true
+    def activate(user_id:, **attributes)
+      put_request("#{USER_API}/users/#{user_id}/activation", body: attributes)
     end
 
-    def activation_email(user_id:)
-      post_request("#{USER_API}/users/#{user_id}/activation-email")
-      true
+    def activation_email(user_id:, **attributes)
+      post_request("#{USER_API}/users/#{user_id}/activation-email", body: attributes)
     end
 
     def deactivate(user_id:)
       delete_request("#{USER_API}/users/#{user_id}/activation")
-      true
     end
   end
 end

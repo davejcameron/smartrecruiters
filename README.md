@@ -123,7 +123,7 @@ client.system_roles.list
 client.users.list
 client.users.create({})
 client.users.retrieve(user_id: "id")
-client.users.update(user_id: "id", {})
+client.users.update(user_id: "id", changes: ['changes'])
 client.users.activate(user_id: "id")
 client.users.activation_email(user_id: "id")
 client.users.deactivate(user_id: "id")
