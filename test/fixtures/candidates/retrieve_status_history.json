@@ -1,0 +1,24 @@
+{
+  "totalFound": 0,
+  "content": [
+    {
+      "changedOn": "2021-10-13T21:06:07.958Z",
+      "status": "LEAD",
+      "subStatus": "string",
+      "actions": {
+        "additionalProp1": {
+          "url": "string",
+          "method": "GET"
+        },
+        "additionalProp2": {
+          "url": "string",
+          "method": "GET"
+        },
+        "additionalProp3": {
+          "url": "string",
+          "method": "GET"
+        }
+      }
+    }
+  ]
+}

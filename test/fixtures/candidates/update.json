@@ -1,0 +1,141 @@
+{
+  "id": "string",
+  "internal": true,
+  "firstName": "Updated",
+  "lastName": "string",
+  "email": "string",
+  "phoneNumber": "string",
+  "location": {
+    "country": "string",
+    "countryCode": "string",
+    "regionCode": "string",
+    "region": "string",
+    "city": "string",
+    "lat": 0,
+    "lng": 0
+  },
+  "web": {
+    "skype": "string",
+    "linkedin": "string",
+    "facebook": "string",
+    "twitter": "string",
+    "website": "string"
+  },
+  "createdOn": "2021-10-16T23:22:11.569Z",
+  "updatedOn": "2021-10-16T23:22:11.569Z",
+  "tags": [
+    "string"
+  ],
+  "averageRating": 0,
+  "education": [
+    {
+      "institution": "string",
+      "degree": "string",
+      "major": "string",
+      "current": true,
+      "location": "string",
+      "startDate": "string",
+      "endDate": "string",
+      "description": "string"
+    }
+  ],
+  "experience": [
+    {
+      "title": "string",
+      "company": "string",
+      "current": true,
+      "startDate": "string",
+      "endDate": "string",
+      "location": "string",
+      "description": "string"
+    }
+  ],
+  "primaryAssignment": {
+    "job": {
+      "id": "string",
+      "title": "string",
+      "actions": {
+        "details": {
+          "url": "string",
+          "method": "GET"
+        },
+        "positionDetails": {
+          "url": "string",
+          "method": "GET"
+        }
+      }
+    },
+    "status": "LEAD",
+    "subStatus": "string",
+    "startsOn": "2021-10-16T23:22:11.569Z",
+    "source": "string",
+    "reasonOfRejection": {
+      "id": "string",
+      "label": "string"
+    },
+    "reasonOfWithdrawal": {
+      "id": "string",
+      "label": "string"
+    },
+    "actions": {
+      "sourceDetails": {
+        "url": "string",
+        "method": "GET"
+      }
+    }
+  },
+  "secondaryAssignments": [
+    {
+      "job": {
+        "id": "string",
+        "title": "string",
+        "actions": {
+          "details": {
+            "url": "string",
+            "method": "GET"
+          },
+          "positionDetails": {
+            "url": "string",
+            "method": "GET"
+          }
+        }
+      },
+      "status": "LEAD",
+      "subStatus": "string",
+      "startsOn": "2021-10-16T23:22:11.569Z",
+      "source": "string",
+      "reasonOfRejection": {
+        "id": "string",
+        "label": "string"
+      },
+      "reasonOfWithdrawal": {
+        "id": "string",
+        "label": "string"
+      },
+      "actions": {
+        "sourceDetails": {
+          "url": "string",
+          "method": "GET"
+        }
+      }
+    }
+  ],
+  "actions": {
+    "properties": {
+      "url": "string",
+      "method": "GET"
+    },
+    "attachments": {
+      "url": "string",
+      "method": "GET"
+    },
+    "consent": {
+      "url": "string",
+      "method": "GET"
+    },
+    "consents": {
+      "url": "string",
+      "method": "GET"
+    }
+  }
+}

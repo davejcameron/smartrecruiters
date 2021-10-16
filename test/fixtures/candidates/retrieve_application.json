@@ -1,0 +1,21 @@
+{
+  "status": "LEAD",
+  "subStatus": "string",
+  "startsOn": "2021-10-17T14:18:21.646Z",
+  "source": "string",
+  "reasonOfRejection": {
+    "id": "string",
+    "label": "string"
+  },
+  "reasonOfWithdrawal": {
+    "id": "string",
+    "label": "string"
+  },
+  "actions": {
+    "sourceDetails": {
+      "url": "string",
+      "method": "GET"
+    }
+  },
+  "url": "string"
+}

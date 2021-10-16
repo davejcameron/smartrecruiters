@@ -21,7 +21,6 @@ module SmartRecruiters
 
     def delete(candidate_id:)
       delete_request("candidates/#{candidate_id}")
-      true
     end
 
     def retrieve_consent(candidate_id:)
@@ -29,8 +28,7 @@ module SmartRecruiters
     end
 
     def retrieve_consents(candidate_id:)
-      response = get_request("candidates/#{candidate_id}/consents")
-      Collection.from_response(response, type: Object.new)
+      Object.new get_request("candidates/#{candidate_id}/consents").body
     end
 
     def retrieve_application(candidate_id:, job_id:)
@@ -43,7 +41,8 @@ module SmartRecruiters
     end
 
     def retrieve_status_history(candidate_id:, job_id:)
-      Object.new get_request("candidates/#{candidate_id}/jobs/#{job_id}/status/history").body
+      response = get_request("candidates/#{candidate_id}/jobs/#{job_id}/status/history")
+      Collection.from_response(response, type: Object)
     end
   end
 end
