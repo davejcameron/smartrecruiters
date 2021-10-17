@@ -18,6 +18,7 @@ module SmartRecruiters
   autoload :Offer, 'smartrecruiters/objects/offer'
   autoload :User, 'smartrecruiters/objects/user'
   autoload :Report, 'smartrecruiters/objects/report'
+  autoload :ReportFile, 'smartrecruiters/objects/report_file'
   autoload :Review, 'smartrecruiters/objects/review'
   autoload :SystemRole, 'smartrecruiters/objects/system_role'
   autoload :Webhook, 'smartrecruiters/objects/webhook'
