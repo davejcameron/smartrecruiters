@@ -1,0 +1,71 @@
+{
+  "nextPage": "string",
+  "content": [
+    {
+      "reportId": "string",
+      "name": "string",
+      "rowEntityTypeId": "string",
+      "rowEntityInstanceId": "string",
+      "columns": [
+        {
+          "entityTypeId": "string",
+          "entityInstanceId": "string",
+          "dataPointId": "string",
+          "dataPointInstanceId": "string",
+          "dataPointInstanceName": "string",
+          "dataPointName": "string",
+          "dataPointType": "ID"
+        }
+      ],
+      "filters": [
+        {
+          "column": {
+            "entityTypeId": "string",
+            "entityInstanceId": "string",
+            "dataPointId": "string",
+            "dataPointInstanceId": "string",
+            "dataPointInstanceName": "string",
+            "dataPointName": "string",
+            "dataPointType": "ID"
+          },
+          "dateRange": {
+            "from": "2021-10-17T16:21:25.797Z",
+            "to": "2021-10-17T16:21:25.797Z"
+          },
+          "datePeriod": {
+            "period": 0,
+            "unit": "DAYS",
+            "fullPeriod": true
+          },
+          "rowValues": {
+            "noneValue": true,
+            "values": [
+              "string"
+            ]
+          },
+          "booleanValue": {
+            "value": true
+          }
+        }
+      ],
+      "creationDate": "2021-10-17T16:21:25.797Z",
+      "modificationDate": "2021-10-17T16:21:25.797Z",
+      "creatorId": "string",
+      "modifierId": "string",
+      "grantees": [
+        "string"
+      ],
+      "schedule": {
+        "frequency": "ANNUALLY",
+        "activityPeriod": {
+          "from": "2021-10-17T16:21:25.797Z",
+          "to": "2021-10-17T16:21:25.797Z"
+        }
+      },
+      "reportTemplateId": "string",
+      "reportFormats": [
+        "CSV"
+      ]
+    }
+  ]
+}

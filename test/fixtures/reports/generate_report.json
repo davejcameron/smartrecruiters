@@ -1,0 +1,53 @@
+{
+  "reportFileId": "string",
+  "reportId": "string",
+  "reportFileStatus": "PENDING",
+  "scheduleType": "AD_HOC",
+  "schedulingDate": "2021-10-17T16:37:05.083Z",
+  "generationDate": "2021-10-17T16:37:05.083Z",
+  "requestorId": "string",
+  "rowEntityTypeId": "string",
+  "rowEntityInstanceId": "string",
+  "columns": [
+    {
+      "entityTypeId": "string",
+      "entityInstanceId": "string",
+      "dataPointId": "string",
+      "dataPointInstanceId": "string",
+      "dataPointInstanceName": "string",
+      "dataPointName": "string",
+      "dataPointType": "ID"
+    }
+  ],
+  "filters": [
+    {
+      "column": {
+        "entityTypeId": "string",
+        "entityInstanceId": "string",
+        "dataPointId": "string",
+        "dataPointInstanceId": "string",
+        "dataPointInstanceName": "string",
+        "dataPointName": "string",
+        "dataPointType": "ID"
+      },
+      "dateRange": {
+        "from": "2021-10-17T16:37:05.083Z",
+        "to": "2021-10-17T16:37:05.083Z"
+      },
+      "datePeriod": {
+        "period": 0,
+        "unit": "DAYS",
+        "fullPeriod": true
+      },
+      "rowValues": {
+        "noneValue": true,
+        "values": [
+          "string"
+        ]
+      },
+      "booleanValue": {
+        "value": true
+      }
+    }
+  ]
+}
