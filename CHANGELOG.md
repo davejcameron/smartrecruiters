@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.2.2](https://www.github.com/davejcameron/smartrecruiters/compare/v0.2.1...v0.2.2) (2021-10-17)
+
+
+### Bug Fixes
+
+* candidate routes and add tests ([#15](https://www.github.com/davejcameron/smartrecruiters/issues/15)) ([fe33b32](https://www.github.com/davejcameron/smartrecruiters/commit/fe33b32c4a1af521191ee976751102217a48cf5d))
+* reports apis and add tests ([#17](https://www.github.com/davejcameron/smartrecruiters/issues/17)) ([47bac12](https://www.github.com/davejcameron/smartrecruiters/commit/47bac1240a1a4495e883afa7e26de1312c97ddda))
+
 ### [0.2.1](https://www.github.com/davejcameron/smartrecruiters/compare/v0.2.0...v0.2.1) (2021-10-13)
 
 
