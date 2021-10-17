@@ -1,0 +1,21 @@
+{
+  "totalFound": 0,
+  "content": [
+    {
+      "id": "string",
+      "name": "string",
+      "type": "string",
+      "contentType": "string",
+      "actions": {
+        "download": {
+          "url": "string",
+          "method": "GET"
+        },
+        "remove": {
+          "url": "string",
+          "method": "GET"
+        }
+      }
+    }
+  ]
+}
