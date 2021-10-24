@@ -53,6 +53,10 @@ module SmartRecruiters
       OffersResource.new(self)
     end
 
+    def postings
+      PostingsResource.new(self)
+    end
+
     def reports
       ReportsResource.new(self)
     end
