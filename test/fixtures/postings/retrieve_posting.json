@@ -1,0 +1,81 @@
+{
+  "id": "string",
+  "uuid": "string",
+  "name": "string",
+  "jobAdId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "applyUrl": "string",
+  "postingUrl": "string",
+  "referralUrl": "string",
+  "refNumber": "string",
+  "company": {
+    "identifier": "string",
+    "name": "string"
+  },
+  "releasedDate": "2021-10-24T19:57:22.832Z",
+  "location": {
+    "country": "string",
+    "region": "string",
+    "city": "string",
+    "remote": true
+  },
+  "industry": {
+    "id": "string",
+    "label": "string"
+  },
+  "department": {
+    "id": "string",
+    "label": "string",
+    "description": "string"
+  },
+  "function": {
+    "id": "string",
+    "label": "string"
+  },
+  "typeOfEmployment": {
+    "id": "string",
+    "label": "string"
+  },
+  "experienceLevel": {
+    "id": "associate",
+    "name": "string"
+  },
+  "customField": [
+    {
+      "fieldId": "string",
+      "fieldLabel": "string",
+      "valueId": "string",
+      "valueLabel": "string"
+    }
+  ],
+  "ref": "string",
+  "creator": {
+    "name": "string"
+  },
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "string",
+        "text": "string"
+      },
+      "jobDescription": {
+        "title": "string",
+        "text": "string"
+      },
+      "qualifications": {
+        "title": "string",
+        "text": "string"
+      },
+      "additionalInformation": {
+        "title": "string",
+        "text": "string"
+      },
+      "videos": {
+        "title": "string",
+        "urls": [
+          "string"
+        ]
+      }
+    }
+  },
+  "active": true
+}

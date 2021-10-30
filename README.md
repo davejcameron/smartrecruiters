@@ -90,6 +90,17 @@ client.offers.retrieve(offer_id: "id", candidate_id: "id", job_id: "id")
 client.offers.retrieve_offers(candidate_id: "id", job_id: "id")
 ```
 
+### Postings
+
+```ruby
+client.postings.list(company_id:)
+client.postings.list_departments(company_id:)
+client.postings.retrieve(company_id:, posting_id:)
+client.postings.create_candidate(posting_id:, {})
+client.postings.retrieve_candidate_status(posting_id:, candidate_id:)
+client.postings.retrieve_configuration(posting_id:)
+```
+
 ### Reports
 
 ```ruby

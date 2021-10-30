@@ -1,0 +1,62 @@
+{
+  "totalFound": 0,
+  "limit": 0,
+  "offset": 0,
+  "content": [
+    {
+      "id": "string",
+      "uuid": "string",
+      "name": "string",
+      "refNumber": "string",
+      "company": {
+        "identifier": "string",
+        "name": "string"
+      },
+      "releasedDate": "2021-10-24T20:11:07.457Z",
+      "location": {
+        "country": "string",
+        "region": "string",
+        "city": "string",
+        "remote": true
+      },
+      "industry": {
+        "id": "string",
+        "label": "string"
+      },
+      "department": {
+        "id": "string",
+        "label": "string",
+        "description": "string"
+      },
+      "function": {
+        "id": "string",
+        "label": "string"
+      },
+      "typeOfEmployment": {
+        "id": "string",
+        "label": "string"
+      },
+      "experienceLevel": {
+        "id": "associate",
+        "name": "string"
+      },
+      "customField": [
+        {
+          "fieldId": "string",
+          "fieldLabel": "string",
+          "valueId": "string",
+          "valueLabel": "string"
+        }
+      ],
+      "ref": "string",
+      "creator": {
+        "name": "string"
+      },
+      "language": {
+        "code": "string",
+        "label": "string",
+        "labelNative": "string"
+      }
+    }
+  ]
+}
