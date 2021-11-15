@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://www.github.com/davejcameron/smartrecruiters/compare/v0.2.2...v0.3.0) (2021-10-30)
+
+
+### Features
+
+* Add support for postings ([#18](https://www.github.com/davejcameron/smartrecruiters/issues/18)) ([7204cd8](https://www.github.com/davejcameron/smartrecruiters/commit/7204cd82fc681eb737f369d7391b9639df4808a0))
+
 ### [0.2.2](https://www.github.com/davejcameron/smartrecruiters/compare/v0.2.1...v0.2.2) (2021-10-17)
 
 
